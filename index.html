@@ -3,87 +3,131 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ravi's Design - Portfolio</title>
+  <title>Ravi | Graphic Designer & Thumbnail Artist</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Header Section -->
-  <header>
-    <h1>Ravi's Design</h1>
-    <p class="tagline">Thumbnail & Profile Picture Designer</p>
-    
-    <!-- Contact Info -->
-    <div class="social-links">
-      <a href="https://instagram.com/realravixog" target="_blank" class="social-badge instagram">
-        <strong>Instagram:</strong> @realravixog
-      </a>
-      <div class="social-badge discord">
-        <strong>Discord:</strong> @ravijddnd
+  <!-- Hero Header -->
+  <header class="hero">
+    <div class="container">
+      <span class="status-badge">Available for Commission</span>
+      <h1>RAVI'S DESIGN</h1>
+      <p class="hero-subtitle">High-CTR YouTube Thumbnails & Standout Profile Pictures</p>
+      
+      <!-- Contact CTA Buttons -->
+      <div class="cta-buttons">
+        <a href="https://instagram.com/realravixog" target="_blank" rel="noopener" class="btn btn-insta">
+          <span>Instagram</span> @realravixog
+        </a>
+        <div class="btn btn-discord">
+          <span>Discord</span> @ravijddnd
+        </div>
       </div>
     </div>
   </header>
 
-  <!-- Pricing Section -->
-  <section class="pricing-section">
-    <h2>Services & Pricing</h2>
-    <div class="pricing-cards">
-      <div class="card">
-        <h3>Thumbnail</h3>
-        <p class="price">₹100 - ₹150 <span class="unit">/ each</span></p>
-      </div>
-      <div class="card">
-        <h3>Profile Picture (PFP)</h3>
-        <p class="price">₹30 <span class="unit">/ each</span></p>
-      </div>
-    </div>
-  </section>
+  <main class="container">
 
-  <!-- Portfolio Showcase -->
-  <main class="portfolio-section">
-    
-    <!-- Thumbnails Gallery (5 Slots) -->
-    <section>
-      <h2>Thumbnails</h2>
-      <div class="grid thumbnails-grid">
-        <div class="portfolio-item">
-          <img src="images/thumb1.png" alt="Thumbnail 1">
-        </div>
-        <div class="portfolio-item">
-          <img src="images/thumb2.png" alt="Thumbnail 2">
-        </div>
-        <div class="portfolio-item">
-          <img src="images/thumb3.png" alt="Thumbnail 3">
-        </div>
-        <div class="portfolio-item">
-          <img src="images/thumb4.png" alt="Thumbnail 4">
-        </div>
-        <div class="portfolio-item">
-          <img src="images/thumb5.png" alt="Thumbnail 5">
+    <!-- About Me Section -->
+    <section class="about-section">
+      <div class="about-card">
+        <h2>About Me</h2>
+        <p>Hey! I'm Ravi, a specialized thumbnail artist and graphic designer. I help content creators boost their Click-Through Rate (CTR) with high-quality, eye-catching visual designs tailored to grab viewer attention immediately.</p>
+        
+        <div class="stats-grid">
+          <div class="stat-item">
+            <span class="stat-num">1080p+</span>
+            <span class="stat-label">Ultra HD Quality</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">24-48h</span>
+            <span class="stat-label">Fast Delivery</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">100%</span>
+            <span class="stat-label">Custom Designs</span>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- PFP Gallery (3 Slots) -->
-    <section>
-      <h2>Profile Pictures</h2>
+    <!-- Services & Pricing -->
+    <section class="pricing-section">
+      <h2 class="section-title">Pricing & Services</h2>
+      <div class="pricing-grid">
+        <div class="price-card popular">
+          <span class="card-badge">Most Popular</span>
+          <h3>YouTube Thumbnail</h3>
+          <div class="price">₹100 - ₹150 <span>/ design</span></div>
+          <ul class="features">
+            <li>High CTR Optimized</li>
+            <li>Custom Lighting & Effects</li>
+            <li>Fast Turnaround Time</li>
+          </ul>
+        </div>
+        
+        <div class="price-card">
+          <h3>Profile Picture (PFP)</h3>
+          <div class="price">₹30 <span>/ design</span></div>
+          <ul class="features">
+            <li>High-Res Square Format</li>
+            <li>Clean Branding Style</li>
+            <li>Discord / Insta / YouTube Ready</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Thumbnail Showcase (5 Slots) -->
+    <section class="portfolio-section">
+      <h2 class="section-title">Thumbnail Work</h2>
+      <div class="grid thumbnails-grid">
+        <div class="portfolio-item">
+          <img src="images/thumb1.png" alt="Thumbnail Design 1" loading="lazy">
+        </div>
+        <div class="portfolio-item">
+          <img src="images/thumb2.png" alt="Thumbnail Design 2" loading="lazy">
+        </div>
+        <div class="portfolio-item">
+          <img src="images/thumb3.png" alt="Thumbnail Design 3" loading="lazy">
+        </div>
+        <div class="portfolio-item">
+          <img src="images/thumb4.png" alt="Thumbnail Design 4" loading="lazy">
+        </div>
+        <div class="portfolio-item">
+          <img src="images/thumb5.png" alt="Thumbnail Design 5" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- PFP Showcase (3 Slots) -->
+    <section class="portfolio-section">
+      <h2 class="section-title">Profile Pictures</h2>
       <div class="grid pfp-grid">
         <div class="portfolio-item pfp-item">
-          <img src="images/pfp1.png" alt="Profile Picture 1">
+          <img src="images/pfp1.png" alt="Profile Picture 1" loading="lazy">
         </div>
         <div class="portfolio-item pfp-item">
-          <img src="images/pfp2.png" alt="Profile Picture 2">
+          <img src="images/pfp2.png" alt="Profile Picture 2" loading="lazy">
         </div>
         <div class="portfolio-item pfp-item">
-          <img src="images/pfp3.png" alt="Profile Picture 3">
+          <img src="images/pfp3.png" alt="Profile Picture 3" loading="lazy">
         </div>
       </div>
     </section>
 
   </main>
 
+  <!-- Footer -->
   <footer>
-    <p>DM me on <strong>Discord (@ravijddnd)</strong> or <strong>Instagram (@realravixog)</strong> to order!</p>
+    <div class="container">
+      <p>Ready to level up your content?</p>
+      <p class="footer-sub">Send a message on <strong>Discord (@ravijddnd)</strong> or <strong>Instagram (@realravixog)</strong></p>
+    </div>
   </footer>
 
 </body>
